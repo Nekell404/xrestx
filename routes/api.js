@@ -1,10 +1,7 @@
 __path = process.cwd()
-
-var aexm = require('@lolikillers/aexm-api');
 var express = require('express');
 var db = require(__path + '/database/db');
 try {
-var lolkill = db.get("lolkill");
 } catch (e) {
 	console.log('')
 }
